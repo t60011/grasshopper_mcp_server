@@ -46,11 +46,6 @@ cd grasshopper_mcp_server
 # 建立虛擬環境 (建議)
 python -m venv venv
 source venv/bin/activate  # Linux/macOS
-
-# 或是應用 uv 建立建立虛擬環境 (建議)
-uv venv
-source .venv/bin/activate # Linux/macOS
-
 # 或
 venv\Scripts\activate     # Windows
 
